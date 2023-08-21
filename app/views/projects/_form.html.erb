@@ -1,0 +1,25 @@
+<%= form_with model: @project do |form| %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    <% if @project.errors.include?(:name) %>
+      <p><%= @project.errors.where(:name).first.full_message %></p>
+    <% end %>
+  </div>
+
+  <% languages_array = Language.all.map { |language| [t(language.code), language.id, ] } %>
+  <div>
+    <%= form.label :primary_language_id %>
+    <%= form.select(:primary_language_id, languages_array, {}, { class: "custom-select" }) %>
+    <% if @project.errors.include?(:primary_language) %>
+      <p><%= @project.errors.where(:primary_language).first.full_message %></p>
+    <% end %>
+  </div>
+
+  <div>
+    <%= form.label :language_ids %>
+    <%= form.select(:language_ids, languages_array, {}, { multiple: true, size: 1, class: "custom-select" }) %>
+  </div>
+
+  <button class="w-100">Submit</button>
+<% end %>

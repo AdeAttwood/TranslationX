@@ -1,0 +1,20 @@
+<%= render "translation_uploads/form", translation_upload: TranslationUpload.new  %>
+
+<turbo-frame id="flash"></turbo-frame>
+
+<h2 class="mt-2">Translations</h2>
+
+<div class="mb-3">
+  <%= paginate @primary_translations %>
+</div>
+
+<% @primary_translations.each do |translation| %>
+  <article class="p-4 pt-0">
+    <p class="py-3"><strong><%= translation.key %></strong> (<%= translation.scope %>)</p>
+    <%= render "form", translation: translation %>
+    <% @project.languages.each do |language| %>
+      <% translation = @other_translations["#{translation.key}.#{language.id}"] || Translation.new(language_id: language.id, key: translation.key, scope: translation.scope) %>
+      <%= render "form", translation: translation %>
+    <% end %>
+  </article>
+<% end %>

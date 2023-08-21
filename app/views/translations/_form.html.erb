@@ -1,0 +1,27 @@
+<turbo-frame id="<%= translation.language_id %><%= translation.key %>">
+
+  <% flash.each do |type, message| %>
+    <template data-notification timeout="3000">
+      <div class="notification <%= type %> mb-2">
+        <div class="title"><%= type.titleize %></div>
+        <div class="message"><%= message %></div>
+      </div>
+    </template>
+  <% end %>
+
+  <%= form_with model: [@project, translation] do |form| %>
+    <%= form.hidden_field :language_id, value: translation.language_id %>
+    <% if translation.new_record? %>
+      <%= form.hidden_field :key, value: translation.key %>
+      <%= form.hidden_field :scope, value: translation.scope %>
+    <% end %>
+    <div class="flex">
+      <div class="flex-grow"><%= form.label :value, t(@languages[translation.language_id]) %></div>
+      <div><button class="null" data-tooltip="Save <%= t(@languages[translation.language_id]) %>"><i class="lni lni-save"></i></button></div>
+    </div>
+    <%= form.text_area :value %>
+    <% if translation.errors.include?(:value) %>
+      <p><%= translation.errors.where(:value).first.full_message %></p>
+    <% end %>
+  <% end %>
+</turbo-frame>

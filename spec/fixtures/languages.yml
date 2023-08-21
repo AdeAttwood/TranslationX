@@ -1,0 +1,1086 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+aa:
+  key: aa
+  code: aa
+ab:
+  key: ab
+  code: ab
+# - id: 3
+#   key: af
+#   code: af
+#   created_at: "2023-08-06 13:01:21.963787"
+#   updated_at: "2023-08-06 13:01:21.963787"
+# - id: 4
+#   key: am
+#   code: am
+#   created_at: "2023-08-06 13:01:21.964620"
+#   updated_at: "2023-08-06 13:01:21.964620"
+# - id: 5
+#   key: ar
+#   code: ar
+#   created_at: "2023-08-06 13:01:21.965374"
+#   updated_at: "2023-08-06 13:01:21.965374"
+# - id: 6
+#   key: ar-ae
+#   code: ar-ae
+#   created_at: "2023-08-06 13:01:21.966191"
+#   updated_at: "2023-08-06 13:01:21.966191"
+# - id: 7
+#   key: ar-bh
+#   code: ar-bh
+#   created_at: "2023-08-06 13:01:21.966950"
+#   updated_at: "2023-08-06 13:01:21.966950"
+# - id: 8
+#   key: ar-dz
+#   code: ar-dz
+#   created_at: "2023-08-06 13:01:21.967469"
+#   updated_at: "2023-08-06 13:01:21.967469"
+# - id: 9
+#   key: ar-eg
+#   code: ar-eg
+#   created_at: "2023-08-06 13:01:21.968002"
+#   updated_at: "2023-08-06 13:01:21.968002"
+# - id: 10
+#   key: ar-iq
+#   code: ar-iq
+#   created_at: "2023-08-06 13:01:21.972722"
+#   updated_at: "2023-08-06 13:01:21.972722"
+# - id: 11
+#   key: ar-jo
+#   code: ar-jo
+#   created_at: "2023-08-06 13:01:21.973277"
+#   updated_at: "2023-08-06 13:01:21.973277"
+# - id: 12
+#   key: ar-kw
+#   code: ar-kw
+#   created_at: "2023-08-06 13:01:21.973792"
+#   updated_at: "2023-08-06 13:01:21.973792"
+# - id: 13
+#   key: ar-lb
+#   code: ar-lb
+#   created_at: "2023-08-06 13:01:21.974978"
+#   updated_at: "2023-08-06 13:01:21.974978"
+# - id: 14
+#   key: ar-ly
+#   code: ar-ly
+#   created_at: "2023-08-06 13:01:21.975931"
+#   updated_at: "2023-08-06 13:01:21.975931"
+# - id: 15
+#   key: ar-ma
+#   code: ar-ma
+#   created_at: "2023-08-06 13:01:21.976577"
+#   updated_at: "2023-08-06 13:01:21.976577"
+# - id: 16
+#   key: ar-om
+#   code: ar-om
+#   created_at: "2023-08-06 13:01:21.977215"
+#   updated_at: "2023-08-06 13:01:21.977215"
+# - id: 17
+#   key: ar-qa
+#   code: ar-qa
+#   created_at: "2023-08-06 13:01:21.977975"
+#   updated_at: "2023-08-06 13:01:21.977975"
+# - id: 18
+#   key: ar-sa
+#   code: ar-sa
+#   created_at: "2023-08-06 13:01:21.978617"
+#   updated_at: "2023-08-06 13:01:21.978617"
+# - id: 19
+#   key: ar-sy
+#   code: ar-sy
+#   created_at: "2023-08-06 13:01:21.979160"
+#   updated_at: "2023-08-06 13:01:21.979160"
+# - id: 20
+#   key: ar-tn
+#   code: ar-tn
+#   created_at: "2023-08-06 13:01:21.979719"
+#   updated_at: "2023-08-06 13:01:21.979719"
+# - id: 21
+#   key: ar-ye
+#   code: ar-ye
+#   created_at: "2023-08-06 13:01:21.980913"
+#   updated_at: "2023-08-06 13:01:21.980913"
+# - id: 22
+#   key: as
+#   code: as
+#   created_at: "2023-08-06 13:01:21.981475"
+#   updated_at: "2023-08-06 13:01:21.981475"
+# - id: 23
+#   key: ay
+#   code: ay
+#   created_at: "2023-08-06 13:01:21.981971"
+#   updated_at: "2023-08-06 13:01:21.981971"
+# - id: 24
+#   key: az
+#   code: az
+#   created_at: "2023-08-06 13:01:21.982521"
+#   updated_at: "2023-08-06 13:01:21.982521"
+# - id: 25
+#   key: ba
+#   code: ba
+#   created_at: "2023-08-06 13:01:21.983183"
+#   updated_at: "2023-08-06 13:01:21.983183"
+# - id: 26
+#   key: be
+#   code: be
+#   created_at: "2023-08-06 13:01:21.983759"
+#   updated_at: "2023-08-06 13:01:21.983759"
+# - id: 27
+#   key: bg
+#   code: bg
+#   created_at: "2023-08-06 13:01:21.984243"
+#   updated_at: "2023-08-06 13:01:21.984243"
+# - id: 28
+#   key: bh
+#   code: bh
+#   created_at: "2023-08-06 13:01:21.984712"
+#   updated_at: "2023-08-06 13:01:21.984712"
+# - id: 29
+#   key: bi
+#   code: bi
+#   created_at: "2023-08-06 13:01:21.985293"
+#   updated_at: "2023-08-06 13:01:21.985293"
+# - id: 30
+#   key: bn
+#   code: bn
+#   created_at: "2023-08-06 13:01:21.985788"
+#   updated_at: "2023-08-06 13:01:21.985788"
+# - id: 31
+#   key: bo
+#   code: bo
+#   created_at: "2023-08-06 13:01:21.986252"
+#   updated_at: "2023-08-06 13:01:21.986252"
+# - id: 32
+#   key: br
+#   code: br
+#   created_at: "2023-08-06 13:01:21.986829"
+#   updated_at: "2023-08-06 13:01:21.986829"
+# - id: 33
+#   key: ca
+#   code: ca
+#   created_at: "2023-08-06 13:01:21.987516"
+#   updated_at: "2023-08-06 13:01:21.987516"
+# - id: 34
+#   key: co
+#   code: co
+#   created_at: "2023-08-06 13:01:21.988060"
+#   updated_at: "2023-08-06 13:01:21.988060"
+# - id: 35
+#   key: cs
+#   code: cs
+#   created_at: "2023-08-06 13:01:21.988581"
+#   updated_at: "2023-08-06 13:01:21.988581"
+# - id: 36
+#   key: cy
+#   code: cy
+#   created_at: "2023-08-06 13:01:21.989075"
+#   updated_at: "2023-08-06 13:01:21.989075"
+# - id: 37
+#   key: da
+#   code: da
+#   created_at: "2023-08-06 13:01:21.989815"
+#   updated_at: "2023-08-06 13:01:21.989815"
+# - id: 38
+#   key: de
+#   code: de
+#   created_at: "2023-08-06 13:01:21.990355"
+#   updated_at: "2023-08-06 13:01:21.990355"
+# - id: 39
+#   key: de-at
+#   code: de-at
+#   created_at: "2023-08-06 13:01:21.991531"
+#   updated_at: "2023-08-06 13:01:21.991531"
+# - id: 40
+#   key: de-ch
+#   code: de-ch
+#   created_at: "2023-08-06 13:01:21.992399"
+#   updated_at: "2023-08-06 13:01:21.992399"
+# - id: 41
+#   key: de-li
+#   code: de-li
+#   created_at: "2023-08-06 13:01:21.993396"
+#   updated_at: "2023-08-06 13:01:21.993396"
+# - id: 42
+#   key: de-lu
+#   code: de-lu
+#   created_at: "2023-08-06 13:01:21.994015"
+#   updated_at: "2023-08-06 13:01:21.994015"
+# - id: 43
+#   key: div
+#   code: div
+#   created_at: "2023-08-06 13:01:21.994920"
+#   updated_at: "2023-08-06 13:01:21.994920"
+# - id: 44
+#   key: dz
+#   code: dz
+#   created_at: "2023-08-06 13:01:21.995488"
+#   updated_at: "2023-08-06 13:01:21.995488"
+# - id: 45
+#   key: el
+#   code: el
+#   created_at: "2023-08-06 13:01:21.996330"
+#   updated_at: "2023-08-06 13:01:21.996330"
+# - id: 46
+en:
+  key: en
+  code: en
+# - id: 47
+#   key: en-au
+#   code: en-au
+#   created_at: "2023-08-06 13:01:21.997962"
+#   updated_at: "2023-08-06 13:01:21.997962"
+# - id: 48
+#   key: en-bz
+#   code: en-bz
+#   created_at: "2023-08-06 13:01:21.999110"
+#   updated_at: "2023-08-06 13:01:21.999110"
+# - id: 49
+#   key: en-ca
+#   code: en-ca
+#   created_at: "2023-08-06 13:01:21.999687"
+#   updated_at: "2023-08-06 13:01:21.999687"
+# - id: 50
+#   key: en-gb
+#   code: en-gb
+#   created_at: "2023-08-06 13:01:22.000920"
+#   updated_at: "2023-08-06 13:01:22.000920"
+# - id: 51
+#   key: en-ie
+#   code: en-ie
+#   created_at: "2023-08-06 13:01:22.001458"
+#   updated_at: "2023-08-06 13:01:22.001458"
+# - id: 52
+#   key: en-jm
+#   code: en-jm
+#   created_at: "2023-08-06 13:01:22.001961"
+#   updated_at: "2023-08-06 13:01:22.001961"
+# - id: 53
+#   key: en-nz
+#   code: en-nz
+#   created_at: "2023-08-06 13:01:22.002824"
+#   updated_at: "2023-08-06 13:01:22.002824"
+# - id: 54
+#   key: en-ph
+#   code: en-ph
+#   created_at: "2023-08-06 13:01:22.003424"
+#   updated_at: "2023-08-06 13:01:22.003424"
+# - id: 55
+#   key: en-tt
+#   code: en-tt
+#   created_at: "2023-08-06 13:01:22.003943"
+#   updated_at: "2023-08-06 13:01:22.003943"
+# - id: 56
+#   key: en-us
+#   code: en-us
+#   created_at: "2023-08-06 13:01:22.004475"
+#   updated_at: "2023-08-06 13:01:22.004475"
+# - id: 57
+#   key: en-za
+#   code: en-za
+#   created_at: "2023-08-06 13:01:22.005192"
+#   updated_at: "2023-08-06 13:01:22.005192"
+# - id: 58
+#   key: en-zw
+#   code: en-zw
+#   created_at: "2023-08-06 13:01:22.005733"
+#   updated_at: "2023-08-06 13:01:22.005733"
+# - id: 59
+#   key: eo
+#   code: eo
+#   created_at: "2023-08-06 13:01:22.006216"
+#   updated_at: "2023-08-06 13:01:22.006216"
+# - id: 60
+#   key: es
+#   code: es
+#   created_at: "2023-08-06 13:01:22.006943"
+#   updated_at: "2023-08-06 13:01:22.006943"
+# - id: 61
+#   key: es-ar
+#   code: es-ar
+#   created_at: "2023-08-06 13:01:22.007546"
+#   updated_at: "2023-08-06 13:01:22.007546"
+# - id: 62
+#   key: es-bo
+#   code: es-bo
+#   created_at: "2023-08-06 13:01:22.008067"
+#   updated_at: "2023-08-06 13:01:22.008067"
+# - id: 63
+#   key: es-cl
+#   code: es-cl
+#   created_at: "2023-08-06 13:01:22.008575"
+#   updated_at: "2023-08-06 13:01:22.008575"
+# - id: 64
+#   key: es-co
+#   code: es-co
+#   created_at: "2023-08-06 13:01:22.009193"
+#   updated_at: "2023-08-06 13:01:22.009193"
+# - id: 65
+#   key: es-cr
+#   code: es-cr
+#   created_at: "2023-08-06 13:01:22.009855"
+#   updated_at: "2023-08-06 13:01:22.009855"
+# - id: 66
+#   key: es-do
+#   code: es-do
+#   created_at: "2023-08-06 13:01:22.010378"
+#   updated_at: "2023-08-06 13:01:22.010378"
+# - id: 67
+#   key: es-ec
+#   code: es-ec
+#   created_at: "2023-08-06 13:01:22.010932"
+#   updated_at: "2023-08-06 13:01:22.010932"
+# - id: 68
+#   key: es-es
+#   code: es-es
+#   created_at: "2023-08-06 13:01:22.011566"
+#   updated_at: "2023-08-06 13:01:22.011566"
+# - id: 69
+#   key: es-gt
+#   code: es-gt
+#   created_at: "2023-08-06 13:01:22.012119"
+#   updated_at: "2023-08-06 13:01:22.012119"
+# - id: 70
+#   key: es-hn
+#   code: es-hn
+#   created_at: "2023-08-06 13:01:22.012621"
+#   updated_at: "2023-08-06 13:01:22.012621"
+# - id: 71
+#   key: es-mx
+#   code: es-mx
+#   created_at: "2023-08-06 13:01:22.013137"
+#   updated_at: "2023-08-06 13:01:22.013137"
+# - id: 72
+#   key: es-ni
+#   code: es-ni
+#   created_at: "2023-08-06 13:01:22.013749"
+#   updated_at: "2023-08-06 13:01:22.013749"
+# - id: 73
+#   key: es-pa
+#   code: es-pa
+#   created_at: "2023-08-06 13:01:22.014287"
+#   updated_at: "2023-08-06 13:01:22.014287"
+# - id: 74
+#   key: es-pe
+#   code: es-pe
+#   created_at: "2023-08-06 13:01:22.014831"
+#   updated_at: "2023-08-06 13:01:22.014831"
+# - id: 75
+#   key: es-pr
+#   code: es-pr
+#   created_at: "2023-08-06 13:01:22.015328"
+#   updated_at: "2023-08-06 13:01:22.015328"
+# - id: 76
+#   key: es-py
+#   code: es-py
+#   created_at: "2023-08-06 13:01:22.015990"
+#   updated_at: "2023-08-06 13:01:22.015990"
+# - id: 77
+#   key: es-sv
+#   code: es-sv
+#   created_at: "2023-08-06 13:01:22.016534"
+#   updated_at: "2023-08-06 13:01:22.016534"
+# - id: 78
+#   key: es-us
+#   code: es-us
+#   created_at: "2023-08-06 13:01:22.017028"
+#   updated_at: "2023-08-06 13:01:22.017028"
+# - id: 79
+#   key: es-uy
+#   code: es-uy
+#   created_at: "2023-08-06 13:01:22.017498"
+#   updated_at: "2023-08-06 13:01:22.017498"
+# - id: 80
+#   key: es-ve
+#   code: es-ve
+#   created_at: "2023-08-06 13:01:22.018124"
+#   updated_at: "2023-08-06 13:01:22.018124"
+# - id: 81
+#   key: et
+#   code: et
+#   created_at: "2023-08-06 13:01:22.018685"
+#   updated_at: "2023-08-06 13:01:22.018685"
+# - id: 82
+#   key: eu
+#   code: eu
+#   created_at: "2023-08-06 13:01:22.019198"
+#   updated_at: "2023-08-06 13:01:22.019198"
+# - id: 83
+#   key: fa
+#   code: fa
+#   created_at: "2023-08-06 13:01:22.019708"
+#   updated_at: "2023-08-06 13:01:22.019708"
+# - id: 84
+#   key: fi
+#   code: fi
+#   created_at: "2023-08-06 13:01:22.020321"
+#   updated_at: "2023-08-06 13:01:22.020321"
+# - id: 85
+#   key: fj
+#   code: fj
+#   created_at: "2023-08-06 13:01:22.020981"
+#   updated_at: "2023-08-06 13:01:22.020981"
+# - id: 86
+#   key: fo
+#   code: fo
+#   created_at: "2023-08-06 13:01:22.021506"
+#   updated_at: "2023-08-06 13:01:22.021506"
+# - id: 87
+#   key: fr
+#   code: fr
+#   created_at: "2023-08-06 13:01:22.022000"
+#   updated_at: "2023-08-06 13:01:22.022000"
+# - id: 88
+#   key: fr-be
+#   code: fr-be
+#   created_at: "2023-08-06 13:01:22.022506"
+#   updated_at: "2023-08-06 13:01:22.022506"
+# - id: 89
+#   key: fr-ca
+#   code: fr-ca
+#   created_at: "2023-08-06 13:01:22.023604"
+#   updated_at: "2023-08-06 13:01:22.023604"
+# - id: 90
+#   key: fr-ch
+#   code: fr-ch
+#   created_at: "2023-08-06 13:01:22.024169"
+#   updated_at: "2023-08-06 13:01:22.024169"
+# - id: 91
+#   key: fr-lu
+#   code: fr-lu
+#   created_at: "2023-08-06 13:01:22.024695"
+#   updated_at: "2023-08-06 13:01:22.024695"
+# - id: 92
+#   key: fr-mc
+#   code: fr-mc
+#   created_at: "2023-08-06 13:01:22.025217"
+#   updated_at: "2023-08-06 13:01:22.025217"
+# - id: 93
+#   key: fy
+#   code: fy
+#   created_at: "2023-08-06 13:01:22.025991"
+#   updated_at: "2023-08-06 13:01:22.025991"
+# - id: 94
+#   key: ga
+#   code: ga
+#   created_at: "2023-08-06 13:01:22.026578"
+#   updated_at: "2023-08-06 13:01:22.026578"
+# - id: 95
+#   key: gd
+#   code: gd
+#   created_at: "2023-08-06 13:01:22.027097"
+#   updated_at: "2023-08-06 13:01:22.027097"
+# - id: 96
+#   key: gl
+#   code: gl
+#   created_at: "2023-08-06 13:01:22.027780"
+#   updated_at: "2023-08-06 13:01:22.027780"
+# - id: 97
+#   key: gn
+#   code: gn
+#   created_at: "2023-08-06 13:01:22.028329"
+#   updated_at: "2023-08-06 13:01:22.028329"
+# - id: 98
+#   key: gu
+#   code: gu
+#   created_at: "2023-08-06 13:01:22.028821"
+#   updated_at: "2023-08-06 13:01:22.028821"
+# - id: 99
+#   key: ha
+#   code: ha
+#   created_at: "2023-08-06 13:01:22.029300"
+#   updated_at: "2023-08-06 13:01:22.029300"
+# - id: 100
+#   key: he
+#   code: he
+#   created_at: "2023-08-06 13:01:22.029977"
+#   updated_at: "2023-08-06 13:01:22.029977"
+# - id: 101
+#   key: hi
+#   code: hi
+#   created_at: "2023-08-06 13:01:22.030504"
+#   updated_at: "2023-08-06 13:01:22.030504"
+# - id: 102
+#   key: hr
+#   code: hr
+#   created_at: "2023-08-06 13:01:22.030993"
+#   updated_at: "2023-08-06 13:01:22.030993"
+# - id: 103
+#   key: hu
+#   code: hu
+#   created_at: "2023-08-06 13:01:22.031517"
+#   updated_at: "2023-08-06 13:01:22.031517"
+# - id: 104
+#   key: hy
+#   code: hy
+#   created_at: "2023-08-06 13:01:22.032201"
+#   updated_at: "2023-08-06 13:01:22.032201"
+# - id: 105
+#   key: ia
+#   code: ia
+#   created_at: "2023-08-06 13:01:22.032699"
+#   updated_at: "2023-08-06 13:01:22.032699"
+# - id: 106
+#   key: id
+#   code: id
+#   created_at: "2023-08-06 13:01:22.033211"
+#   updated_at: "2023-08-06 13:01:22.033211"
+# - id: 107
+#   key: ie
+#   code: ie
+#   created_at: "2023-08-06 13:01:22.033727"
+#   updated_at: "2023-08-06 13:01:22.033727"
+# - id: 108
+#   key: ik
+#   code: ik
+#   created_at: "2023-08-06 13:01:22.034363"
+#   updated_at: "2023-08-06 13:01:22.034363"
+# - id: 109
+#   key: in
+#   code: in
+#   created_at: "2023-08-06 13:01:22.034984"
+#   updated_at: "2023-08-06 13:01:22.034984"
+# - id: 110
+#   key: is
+#   code: is
+#   created_at: "2023-08-06 13:01:22.035560"
+#   updated_at: "2023-08-06 13:01:22.035560"
+# - id: 111
+#   key: it
+#   code: it
+#   created_at: "2023-08-06 13:01:22.036089"
+#   updated_at: "2023-08-06 13:01:22.036089"
+# - id: 112
+#   key: it-ch
+#   code: it-ch
+#   created_at: "2023-08-06 13:01:22.036739"
+#   updated_at: "2023-08-06 13:01:22.036739"
+# - id: 113
+#   key: iw
+#   code: iw
+#   created_at: "2023-08-06 13:01:22.037245"
+#   updated_at: "2023-08-06 13:01:22.037245"
+# - id: 114
+#   key: ja
+#   code: ja
+#   created_at: "2023-08-06 13:01:22.037750"
+#   updated_at: "2023-08-06 13:01:22.037750"
+# - id: 115
+#   key: ji
+#   code: ji
+#   created_at: "2023-08-06 13:01:22.038217"
+#   updated_at: "2023-08-06 13:01:22.038217"
+# - id: 116
+#   key: jw
+#   code: jw
+#   created_at: "2023-08-06 13:01:22.038911"
+#   updated_at: "2023-08-06 13:01:22.038911"
+# - id: 117
+#   key: ka
+#   code: ka
+#   created_at: "2023-08-06 13:01:22.039456"
+#   updated_at: "2023-08-06 13:01:22.039456"
+# - id: 118
+#   key: kk
+#   code: kk
+#   created_at: "2023-08-06 13:01:22.039987"
+#   updated_at: "2023-08-06 13:01:22.039987"
+# - id: 119
+#   key: kl
+#   code: kl
+#   created_at: "2023-08-06 13:01:22.040812"
+#   updated_at: "2023-08-06 13:01:22.040812"
+# - id: 120
+#   key: km
+#   code: km
+#   created_at: "2023-08-06 13:01:22.041578"
+#   updated_at: "2023-08-06 13:01:22.041578"
+# - id: 121
+#   key: kn
+#   code: kn
+#   created_at: "2023-08-06 13:01:22.042110"
+#   updated_at: "2023-08-06 13:01:22.042110"
+# - id: 122
+#   key: ko
+#   code: ko
+#   created_at: "2023-08-06 13:01:22.042685"
+#   updated_at: "2023-08-06 13:01:22.042685"
+# - id: 123
+#   key: kok
+#   code: kok
+#   created_at: "2023-08-06 13:01:22.043255"
+#   updated_at: "2023-08-06 13:01:22.043255"
+# - id: 124
+#   key: ks
+#   code: ks
+#   created_at: "2023-08-06 13:01:22.044092"
+#   updated_at: "2023-08-06 13:01:22.044092"
+# - id: 125
+#   key: ku
+#   code: ku
+#   created_at: "2023-08-06 13:01:22.044752"
+#   updated_at: "2023-08-06 13:01:22.044752"
+# - id: 126
+#   key: ky
+#   code: ky
+#   created_at: "2023-08-06 13:01:22.045289"
+#   updated_at: "2023-08-06 13:01:22.045289"
+# - id: 127
+#   key: kz
+#   code: kz
+#   created_at: "2023-08-06 13:01:22.045826"
+#   updated_at: "2023-08-06 13:01:22.045826"
+# - id: 128
+#   key: la
+#   code: la
+#   created_at: "2023-08-06 13:01:22.046345"
+#   updated_at: "2023-08-06 13:01:22.046345"
+# - id: 129
+#   key: ln
+#   code: ln
+#   created_at: "2023-08-06 13:01:22.047440"
+#   updated_at: "2023-08-06 13:01:22.047440"
+# - id: 130
+#   key: lo
+#   code: lo
+#   created_at: "2023-08-06 13:01:22.047972"
+#   updated_at: "2023-08-06 13:01:22.047972"
+# - id: 131
+#   key: ls
+#   code: ls
+#   created_at: "2023-08-06 13:01:22.048462"
+#   updated_at: "2023-08-06 13:01:22.048462"
+# - id: 132
+#   key: lt
+#   code: lt
+#   created_at: "2023-08-06 13:01:22.049216"
+#   updated_at: "2023-08-06 13:01:22.049216"
+# - id: 133
+#   key: lv
+#   code: lv
+#   created_at: "2023-08-06 13:01:22.049757"
+#   updated_at: "2023-08-06 13:01:22.049757"
+# - id: 134
+#   key: mg
+#   code: mg
+#   created_at: "2023-08-06 13:01:22.050233"
+#   updated_at: "2023-08-06 13:01:22.050233"
+# - id: 135
+#   key: mi
+#   code: mi
+#   created_at: "2023-08-06 13:01:22.050731"
+#   updated_at: "2023-08-06 13:01:22.050731"
+# - id: 136
+#   key: mk
+#   code: mk
+#   created_at: "2023-08-06 13:01:22.051373"
+#   updated_at: "2023-08-06 13:01:22.051373"
+# - id: 137
+#   key: ml
+#   code: ml
+#   created_at: "2023-08-06 13:01:22.051949"
+#   updated_at: "2023-08-06 13:01:22.051949"
+# - id: 138
+#   key: mn
+#   code: mn
+#   created_at: "2023-08-06 13:01:22.052470"
+#   updated_at: "2023-08-06 13:01:22.052470"
+# - id: 139
+#   key: mo
+#   code: mo
+#   created_at: "2023-08-06 13:01:22.053169"
+#   updated_at: "2023-08-06 13:01:22.053169"
+# - id: 140
+#   key: mr
+#   code: mr
+#   created_at: "2023-08-06 13:01:22.054202"
+#   updated_at: "2023-08-06 13:01:22.054202"
+# - id: 141
+#   key: ms
+#   code: ms
+#   created_at: "2023-08-06 13:01:22.054814"
+#   updated_at: "2023-08-06 13:01:22.054814"
+# - id: 142
+#   key: mt
+#   code: mt
+#   created_at: "2023-08-06 13:01:22.055459"
+#   updated_at: "2023-08-06 13:01:22.055459"
+# - id: 143
+#   key: my
+#   code: my
+#   created_at: "2023-08-06 13:01:22.056177"
+#   updated_at: "2023-08-06 13:01:22.056177"
+# - id: 144
+#   key: na
+#   code: na
+#   created_at: "2023-08-06 13:01:22.056752"
+#   updated_at: "2023-08-06 13:01:22.056752"
+# - id: 145
+#   key: nb-no
+#   code: nb-no
+#   created_at: "2023-08-06 13:01:22.057321"
+#   updated_at: "2023-08-06 13:01:22.057321"
+# - id: 146
+#   key: ne
+#   code: ne
+#   created_at: "2023-08-06 13:01:22.058372"
+#   updated_at: "2023-08-06 13:01:22.058372"
+# - id: 147
+#   key: nl
+#   code: nl
+#   created_at: "2023-08-06 13:01:22.059279"
+#   updated_at: "2023-08-06 13:01:22.059279"
+# - id: 148
+#   key: nl-be
+#   code: nl-be
+#   created_at: "2023-08-06 13:01:22.060057"
+#   updated_at: "2023-08-06 13:01:22.060057"
+# - id: 149
+#   key: nn-no
+#   code: nn-no
+#   created_at: "2023-08-06 13:01:22.060734"
+#   updated_at: "2023-08-06 13:01:22.060734"
+# - id: 150
+#   key: "no"
+#   code: "no"
+#   created_at: "2023-08-06 13:01:22.061228"
+#   updated_at: "2023-08-06 13:01:22.061228"
+# - id: 151
+#   key: oc
+#   code: oc
+#   created_at: "2023-08-06 13:01:22.061894"
+#   updated_at: "2023-08-06 13:01:22.061894"
+# - id: 152
+#   key: om
+#   code: om
+#   created_at: "2023-08-06 13:01:22.062526"
+#   updated_at: "2023-08-06 13:01:22.062526"
+# - id: 153
+#   key: or
+#   code: or
+#   created_at: "2023-08-06 13:01:22.063086"
+#   updated_at: "2023-08-06 13:01:22.063086"
+# - id: 154
+#   key: pa
+#   code: pa
+#   created_at: "2023-08-06 13:01:22.063655"
+#   updated_at: "2023-08-06 13:01:22.063655"
+# - id: 155
+#   key: pl
+#   code: pl
+#   created_at: "2023-08-06 13:01:22.064383"
+#   updated_at: "2023-08-06 13:01:22.064383"
+# - id: 156
+#   key: ps
+#   code: ps
+#   created_at: "2023-08-06 13:01:22.064960"
+#   updated_at: "2023-08-06 13:01:22.064960"
+# - id: 157
+#   key: pt
+#   code: pt
+#   created_at: "2023-08-06 13:01:22.065498"
+#   updated_at: "2023-08-06 13:01:22.065498"
+# - id: 158
+#   key: pt-br
+#   code: pt-br
+#   created_at: "2023-08-06 13:01:22.066018"
+#   updated_at: "2023-08-06 13:01:22.066018"
+# - id: 159
+#   key: qu
+#   code: qu
+#   created_at: "2023-08-06 13:01:22.066766"
+#   updated_at: "2023-08-06 13:01:22.066766"
+# - id: 160
+#   key: rm
+#   code: rm
+#   created_at: "2023-08-06 13:01:22.067401"
+#   updated_at: "2023-08-06 13:01:22.067401"
+# - id: 161
+#   key: rn
+#   code: rn
+#   created_at: "2023-08-06 13:01:22.067970"
+#   updated_at: "2023-08-06 13:01:22.067970"
+# - id: 162
+#   key: ro
+#   code: ro
+#   created_at: "2023-08-06 13:01:22.068500"
+#   updated_at: "2023-08-06 13:01:22.068500"
+# - id: 163
+#   key: ro-md
+#   code: ro-md
+#   created_at: "2023-08-06 13:01:22.069065"
+#   updated_at: "2023-08-06 13:01:22.069065"
+# - id: 164
+#   key: ru
+#   code: ru
+#   created_at: "2023-08-06 13:01:22.069830"
+#   updated_at: "2023-08-06 13:01:22.069830"
+# - id: 165
+#   key: ru-md
+#   code: ru-md
+#   created_at: "2023-08-06 13:01:22.070897"
+#   updated_at: "2023-08-06 13:01:22.070897"
+# - id: 166
+#   key: rw
+#   code: rw
+#   created_at: "2023-08-06 13:01:22.071541"
+#   updated_at: "2023-08-06 13:01:22.071541"
+# - id: 167
+#   key: sa
+#   code: sa
+#   created_at: "2023-08-06 13:01:22.072167"
+#   updated_at: "2023-08-06 13:01:22.072167"
+# - id: 168
+#   key: sb
+#   code: sb
+#   created_at: "2023-08-06 13:01:22.073525"
+#   updated_at: "2023-08-06 13:01:22.073525"
+# - id: 169
+#   key: sd
+#   code: sd
+#   created_at: "2023-08-06 13:01:22.074810"
+#   updated_at: "2023-08-06 13:01:22.074810"
+# - id: 170
+#   key: sg
+#   code: sg
+#   created_at: "2023-08-06 13:01:22.075562"
+#   updated_at: "2023-08-06 13:01:22.075562"
+# - id: 171
+#   key: sh
+#   code: sh
+#   created_at: "2023-08-06 13:01:22.076349"
+#   updated_at: "2023-08-06 13:01:22.076349"
+# - id: 172
+#   key: si
+#   code: si
+#   created_at: "2023-08-06 13:01:22.077328"
+#   updated_at: "2023-08-06 13:01:22.077328"
+# - id: 173
+#   key: sk
+#   code: sk
+#   created_at: "2023-08-06 13:01:22.077856"
+#   updated_at: "2023-08-06 13:01:22.077856"
+# - id: 174
+#   key: sl
+#   code: sl
+#   created_at: "2023-08-06 13:01:22.078365"
+#   updated_at: "2023-08-06 13:01:22.078365"
+# - id: 175
+#   key: sm
+#   code: sm
+#   created_at: "2023-08-06 13:01:22.079676"
+#   updated_at: "2023-08-06 13:01:22.079676"
+# - id: 176
+#   key: sn
+#   code: sn
+#   created_at: "2023-08-06 13:01:22.080275"
+#   updated_at: "2023-08-06 13:01:22.080275"
+# - id: 177
+#   key: so
+#   code: so
+#   created_at: "2023-08-06 13:01:22.080774"
+#   updated_at: "2023-08-06 13:01:22.080774"
+# - id: 178
+#   key: sq
+#   code: sq
+#   created_at: "2023-08-06 13:01:22.081252"
+#   updated_at: "2023-08-06 13:01:22.081252"
+# - id: 179
+#   key: sr
+#   code: sr
+#   created_at: "2023-08-06 13:01:22.081978"
+#   updated_at: "2023-08-06 13:01:22.081978"
+# - id: 180
+#   key: ss
+#   code: ss
+#   created_at: "2023-08-06 13:01:22.082600"
+#   updated_at: "2023-08-06 13:01:22.082600"
+# - id: 181
+#   key: st
+#   code: st
+#   created_at: "2023-08-06 13:01:22.083132"
+#   updated_at: "2023-08-06 13:01:22.083132"
+# - id: 182
+#   key: su
+#   code: su
+#   created_at: "2023-08-06 13:01:22.083652"
+#   updated_at: "2023-08-06 13:01:22.083652"
+# - id: 183
+#   key: sv
+#   code: sv
+#   created_at: "2023-08-06 13:01:22.084407"
+#   updated_at: "2023-08-06 13:01:22.084407"
+# - id: 184
+#   key: sv-fi
+#   code: sv-fi
+#   created_at: "2023-08-06 13:01:22.084929"
+#   updated_at: "2023-08-06 13:01:22.084929"
+# - id: 185
+#   key: sw
+#   code: sw
+#   created_at: "2023-08-06 13:01:22.085414"
+#   updated_at: "2023-08-06 13:01:22.085414"
+# - id: 186
+#   key: sx
+#   code: sx
+#   created_at: "2023-08-06 13:01:22.085918"
+#   updated_at: "2023-08-06 13:01:22.085918"
+# - id: 187
+#   key: syr
+#   code: syr
+#   created_at: "2023-08-06 13:01:22.086578"
+#   updated_at: "2023-08-06 13:01:22.086578"
+# - id: 188
+#   key: ta
+#   code: ta
+#   created_at: "2023-08-06 13:01:22.087143"
+#   updated_at: "2023-08-06 13:01:22.087143"
+# - id: 189
+#   key: te
+#   code: te
+#   created_at: "2023-08-06 13:01:22.087662"
+#   updated_at: "2023-08-06 13:01:22.087662"
+# - id: 190
+#   key: tg
+#   code: tg
+#   created_at: "2023-08-06 13:01:22.088178"
+#   updated_at: "2023-08-06 13:01:22.088178"
+# - id: 191
+#   key: th
+#   code: th
+#   created_at: "2023-08-06 13:01:22.088808"
+#   updated_at: "2023-08-06 13:01:22.088808"
+# - id: 192
+#   key: ti
+#   code: ti
+#   created_at: "2023-08-06 13:01:22.089357"
+#   updated_at: "2023-08-06 13:01:22.089357"
+# - id: 193
+#   key: tk
+#   code: tk
+#   created_at: "2023-08-06 13:01:22.089882"
+#   updated_at: "2023-08-06 13:01:22.089882"
+# - id: 194
+#   key: tl
+#   code: tl
+#   created_at: "2023-08-06 13:01:22.090359"
+#   updated_at: "2023-08-06 13:01:22.090359"
+# - id: 195
+#   key: tn
+#   code: tn
+#   created_at: "2023-08-06 13:01:22.091125"
+#   updated_at: "2023-08-06 13:01:22.091125"
+# - id: 196
+#   key: to
+#   code: to
+#   created_at: "2023-08-06 13:01:22.091628"
+#   updated_at: "2023-08-06 13:01:22.091628"
+# - id: 197
+#   key: tr
+#   code: tr
+#   created_at: "2023-08-06 13:01:22.092142"
+#   updated_at: "2023-08-06 13:01:22.092142"
+# - id: 198
+#   key: ts
+#   code: ts
+#   created_at: "2023-08-06 13:01:22.092716"
+#   updated_at: "2023-08-06 13:01:22.092716"
+# - id: 199
+#   key: tt
+#   code: tt
+#   created_at: "2023-08-06 13:01:22.093527"
+#   updated_at: "2023-08-06 13:01:22.093527"
+# - id: 200
+#   key: tw
+#   code: tw
+#   created_at: "2023-08-06 13:01:22.094137"
+#   updated_at: "2023-08-06 13:01:22.094137"
+# - id: 201
+#   key: uk
+#   code: uk
+#   created_at: "2023-08-06 13:01:22.094741"
+#   updated_at: "2023-08-06 13:01:22.094741"
+# - id: 202
+#   key: ur
+#   code: ur
+#   created_at: "2023-08-06 13:01:22.095270"
+#   updated_at: "2023-08-06 13:01:22.095270"
+# - id: 203
+#   key: us
+#   code: us
+#   created_at: "2023-08-06 13:01:22.096036"
+#   updated_at: "2023-08-06 13:01:22.096036"
+# - id: 204
+#   key: uz
+#   code: uz
+#   created_at: "2023-08-06 13:01:22.096593"
+#   updated_at: "2023-08-06 13:01:22.096593"
+# - id: 205
+#   key: vi
+#   code: vi
+#   created_at: "2023-08-06 13:01:22.097124"
+#   updated_at: "2023-08-06 13:01:22.097124"
+# - id: 206
+#   key: vo
+#   code: vo
+#   created_at: "2023-08-06 13:01:22.097635"
+#   updated_at: "2023-08-06 13:01:22.097635"
+# - id: 207
+#   key: wo
+#   code: wo
+#   created_at: "2023-08-06 13:01:22.098156"
+#   updated_at: "2023-08-06 13:01:22.098156"
+# - id: 208
+#   key: xh
+#   code: xh
+#   created_at: "2023-08-06 13:01:22.099321"
+#   updated_at: "2023-08-06 13:01:22.099321"
+# - id: 209
+#   key: yi
+#   code: yi
+#   created_at: "2023-08-06 13:01:22.099909"
+#   updated_at: "2023-08-06 13:01:22.099909"
+# - id: 210
+#   key: yo
+#   code: yo
+#   created_at: "2023-08-06 13:01:22.100423"
+#   updated_at: "2023-08-06 13:01:22.100423"
+# - id: 211
+#   key: zh
+#   code: zh
+#   created_at: "2023-08-06 13:01:22.101181"
+#   updated_at: "2023-08-06 13:01:22.101181"
+# - id: 212
+#   key: zh-cn
+#   code: zh-cn
+#   created_at: "2023-08-06 13:01:22.101750"
+#   updated_at: "2023-08-06 13:01:22.101750"
+# - id: 213
+#   key: zh-hk
+#   code: zh-hk
+#   created_at: "2023-08-06 13:01:22.102261"
+#   updated_at: "2023-08-06 13:01:22.102261"
+# - id: 214
+#   key: zh-mo
+#   code: zh-mo
+#   created_at: "2023-08-06 13:01:22.102831"
+#   updated_at: "2023-08-06 13:01:22.102831"
+# - id: 215
+#   key: zh-sg
+#   code: zh-sg
+#   created_at: "2023-08-06 13:01:22.103550"
+#   updated_at: "2023-08-06 13:01:22.103550"
+# - id: 216
+#   key: zh-tw
+#   code: zh-tw
+#   created_at: "2023-08-06 13:01:22.104144"
+#   updated_at: "2023-08-06 13:01:22.104144"
+# - id: 217
+#   key: zu
+#   code: zu
+#   created_at: "2023-08-06 13:01:22.104661"
+#   updated_at: "2023-08-06 13:01:22.104661"

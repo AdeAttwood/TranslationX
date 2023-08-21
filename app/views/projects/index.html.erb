@@ -1,0 +1,31 @@
+<% if @projects.empty? %>
+  <div class="text-center">
+    <h2>No projects</h2>
+  </div>
+  <div class="text-center">
+    <a role="button" href="<%= new_project_path %>">Create your first project</a>
+  </div>
+<% else %>
+  <div class="flex m-4 justify-content-between">
+    <div>
+      <h1>Projects</h1>
+    </div>
+    <a role="button" href="<%= new_project_path %>">New project</a>
+  </div>
+  <div class="app-grid">
+    <% @projects.each do |project| %>
+      <article class="p-4">
+        <h3> Name: <%= project.name %> </h3>
+        <h4>Language: <%= t(project.primary_language.code) %></h4>
+
+        <div class="flex justify-content-between mt-3">
+          <div></div>
+          <div>
+            <a class="icon me-3" href="<%= project_translations_path(project) %>" data-tooltip="View Project"><i class="lni lni-eye"></i></a>
+            <a class="icon" href="<%= edit_project_path(project) %>" data-tooltip="Edit Project"><i class="lni lni-pencil"></i></a>
+          </div>
+        </div>
+      </article>
+    <% end %>
+  </div>
+<% end %>

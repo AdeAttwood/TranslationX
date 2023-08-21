@@ -1,0 +1,17 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/bundle
+    - db/**/*
+    - node_modules/**/*
+
+# Make the frozen string literal comment cop safe auto-correct by default. This
+# is so it will get added when saving the file.
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  SafeAutoCorrect: true
+
+Metrics/BlockLength:
+  AllowedMethods: ["describe", "context"]
+  Exclude:
+    - config/**/*

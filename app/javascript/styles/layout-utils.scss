@@ -1,0 +1,132 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+$spacers: (
+  0: 0,
+  1: 1rem * 0.25,
+  2: 1rem * 0.5,
+  3: 1rem,
+  4: 1rem * 1.5,
+  5: 1rem * 3,
+);
+$classes: (
+  m: (
+    "margin",
+  ),
+  ms: (
+    "margin-inline-start",
+  ),
+  me: (
+    "margin-inline-end",
+  ),
+  ml: (
+    "margin-left",
+  ),
+  mr: (
+    "margin-right",
+  ),
+  mb: (
+    "margin-bottom",
+  ),
+  mt: (
+    "margin-top",
+  ),
+  mx: (
+    "margin-left",
+    "margin-right",
+  ),
+  my: (
+    "margin-top",
+    "margin-bottom",
+  ),
+  p: (
+    "padding",
+  ),
+  pb: (
+    "padding-bottom",
+  ),
+  pt: (
+    "padding-top",
+  ),
+  px: (
+    "padding-left",
+    "padding-right",
+  ),
+  py: (
+    "padding-top",
+    "padding-bottom",
+  ),
+);
+
+@each $space, $value in $spacers {
+  @each $class-name, $properties in $classes {
+    .#{$class-name}-#{$space} {
+      @each $property in $properties {
+        #{$property}: $value !important;
+      }
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+$flex: (
+  justify-content: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around,
+    evenly: space-evenly,
+  ),
+  align-items: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    stretch: stretch,
+  ),
+  align-content: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around,
+  ),
+);
+
+@each $class-prefix, $map in $flex {
+  @each $class-suffix, $value in $map {
+    .#{$class-prefix}-#{$class-suffix} {
+      #{$class-prefix}: $value;
+    }
+  }
+}

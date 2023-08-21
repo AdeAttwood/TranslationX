@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TranslationX</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+
+  <body class="container">
+    <nav class="px-3">
+      <ul>
+        <li><strong>TranslationX</strong></li>
+      </ul>
+      <ul>
+        <% if user_signed_in? %>
+          <li>
+            <%= link_to "Projects",  projects_path %>
+          </li>
+          <li>
+            <%= link_to "Logout",  destroy_user_session_path, method: :delete %>
+          </li>
+        <% else %>
+          <li>
+            <%= link_to "Login", new_user_session_path  %>
+          </li>
+          <li>
+            <%= link_to "Sign up", new_user_registration_path  %>
+          </li>
+        <% end %>
+      </ul>
+    </nav>
+
+    <main>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+      <%= yield %>
+    </main>
+
+    <div class="notification-container"></div>
+  </body>
+</html>

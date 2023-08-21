@@ -1,0 +1,18 @@
+<turbo-frame id="translations-upload">
+  <h3>Upload translation file</h3>
+
+  <article class="p-4">
+    <%= form_with model: [@project, translation_upload] do |form| %>
+      <div class="flex">
+        <%= form.hidden_field :placeholder, value: 1 %>
+        <%= form.file_field :file %>
+        <% if translation_upload.errors.include?(:file) %>
+          <p><%= translation_upload.errors.where(:file).first.full_message %></p>
+        <% end %>
+        <div>
+          <button>Submit</button>
+        </div>
+      </div>
+    <% end %>
+  </article>
+</turbo-frame>

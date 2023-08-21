@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "private": "true",
+  "dependencies": {
+    "@hotwired/turbo": "^7.3.0",
+    "@hotwired/turbo-rails": "^7.3.0",
+    "@picocss/pico": "^2.0.0-alpha1",
+    "choices.js": "^10.2.0",
+    "downshift": "^8.1.0",
+    "esbuild": "^0.18.17",
+    "esbuild-sass-plugin": "^2.10.0",
+    "fuse.js": "^6.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "watch": "node esbuild.mjs watch"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^4.0.2",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "prettier": "^3.0.2",
+    "prettier-plugin-erb": "^0.4.0",
+    "stylelint": "^15.10.2"
+  }
+}

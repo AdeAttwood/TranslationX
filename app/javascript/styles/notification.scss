@@ -1,0 +1,55 @@
+.notification-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 1rem;
+  padding-right: 1rem;
+
+  .notification {
+    border-radius: var(--pico-border-radius);
+    background: var(--pico-card-background-color);
+    box-shadow: var(--pico-card-box-shadow);
+    overflow: hidden;
+    min-width: 400px;
+
+    transform: translateX(calc(100% + 1rem));
+    transition-property: transform, top;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.25, 1.35);
+
+    .title {
+      padding: 0.75rem 1rem;
+      font-weight: bold;
+      background-color: var(--pico-card-sectioning-background-color);
+    }
+
+    .message {
+      padding: 1rem;
+    }
+
+    &.open {
+      transform: translateX(0);
+    }
+
+    &.primary {
+      .title {
+        background-color: var(--pico-primary-background);
+        color: var(--pico-primary-inverse);
+      }
+    }
+
+    &.error {
+      .title {
+        background-color: var(--pico-color-red-600);
+        color: var(--pico-primary-inverse);
+      }
+    }
+
+    &.success {
+      .title {
+        background-color: var(--pico-color-green-600);
+        color: var(--pico-primary-inverse);
+      }
+    }
+  }
+}
