@@ -9,6 +9,11 @@ class TranslationUpload
   validate :validate_file_type
   validate :validate_language_code
 
+  # @param [Hash] attributes
+  def initialize(attributes = {})
+    super
+  end
+
   def translation_scope
     PATTERNS.each do |pattern|
       matches = file.original_filename.match(pattern)

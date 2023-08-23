@@ -7,6 +7,7 @@ class ProjectsController < ApplicationController
 
   before_action :authenticate_user!
 
+  # @return [void]
   def index
     @projects = Project.includes(:primary_language).where(user_id: current_user.id)
   end

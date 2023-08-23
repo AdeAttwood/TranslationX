@@ -15,9 +15,10 @@ class FlashComponent < ApplicationComponent
     @timeout = timeout
   end
 
+  # @return [void]
   def template
     flash.each do |type, message|
-      template_tag(data_notification: 'yes', timeout:, something:) do
+      template_tag(data_notification: 'yes', timeout:) do
         div(class: %(notification #{type} mb-2)) do
           div(class: 'title') { type.titleize }
           div(class: 'message') { message }

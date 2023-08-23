@@ -6,6 +6,9 @@
 module ProjectAware
   extend ActiveSupport::Concern
 
+  # @return [Project]
+  attr_accessor :project
+
   included do
     before_action :populate_project
   end
