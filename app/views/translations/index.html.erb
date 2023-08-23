@@ -4,12 +4,26 @@
 
 <h2 class="mt-2">Translations</h2>
 
-<div class="mb-3">
-  <%= paginate @primary_translations %>
-</div>
+<article class="p-4 pt-0 mt-0 mb-3">
+  <form method="GET">
+    <input class="my-0" type="search" name="key" value="<%= params[:key] %>">
+  </form>
+</article>
+
+<% unless @primary_translations.out_of_range? %>
+  <article class="p-4 pt-0 mt-0 mb-3">
+    <%= paginate @primary_translations %>
+  </article>
+<% end %>
+
+<% if @primary_translations.empty? %>
+  <article class="p-4 pt-0 mt-0 mb-3">
+    <h2 class="text-center my-4">No translations found</h2>
+  </article>
+<% end %>
 
 <% @primary_translations.each do |translation| %>
-  <article class="p-4 pt-0">
+  <article class="p-4 pt-0 mt-0 mb-3">
     <p class="py-3"><strong><%= translation.key %></strong> (<%= translation.scope %>)</p>
     <%= render "form", translation: translation %>
     <% @project.languages.each do |language| %>
@@ -18,3 +32,11 @@
     <% end %>
   </article>
 <% end %>
+
+<% unless @primary_translations.out_of_range? %>
+  <article class="p-4 pt-0 mt-0 mb-5">
+    <%= paginate @primary_translations %>
+  </article>
+<% end %>
+
+<div style="height: 100px"></div>

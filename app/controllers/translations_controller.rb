@@ -56,11 +56,15 @@ class TranslationsController < ApplicationController
   private
 
   def primary_translations
-    Translation
-      .where(project_id: @project.id)
-      .where(language_id: @project.primary_language_id)
-      .order(:key)
-      .page(params[:page])
+    query = Translation
+            .where(project_id: @project.id)
+            .where(language_id: @project.primary_language_id)
+            .order(:key)
+            .page(params[:page])
+
+    query = query.where('key LIKE ?', "#{params[:key]}%") if params[:key].present?
+
+    query
   end
 
   def other_translations
