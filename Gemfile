@@ -82,3 +82,5 @@ gem 'kaminari', '~> 1.2'
 gem 'htmlbeautifier', '~> 1.4'
 
 gem 'rspec-rails', '~> 6.0'
+
+gem "phlex-rails", "~> 1.0"

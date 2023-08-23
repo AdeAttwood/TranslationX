@@ -1,13 +1,5 @@
 <turbo-frame id="<%= translation.language_id %><%= translation.key %>">
-
-  <% flash.each do |type, message| %>
-    <template data-notification timeout="3000">
-      <div class="notification <%= type %> mb-2">
-        <div class="title"><%= type.titleize %></div>
-        <div class="message"><%= message %></div>
-      </div>
-    </template>
-  <% end %>
+  <%= render FlashComponent.new(flash:) %>
 
   <%= form_with model: [@project, translation] do |form| %>
     <%= form.hidden_field :language_id, value: translation.language_id %>
